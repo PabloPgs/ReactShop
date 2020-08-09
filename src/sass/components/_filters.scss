@@ -1,0 +1,77 @@
+.filters {
+  max-width: 25%;
+  width: 100%;
+
+  height: 600px;
+  margin-right: 20px;
+}
+
+.filters__order {
+  &-title {
+    margin-bottom: 10px;
+  }
+  text-transform: capitalize;
+
+  &-filter {
+    margin: 8px 0;
+  }
+}
+
+.filters__price {
+  position: relative;
+
+  &-modal {
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+    right: 5px;
+  }
+
+  &-header {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-body {
+    margin-bottom: 20px;
+  }
+
+  &-filter {
+    margin: 8px 0;
+  }
+
+  &-number {
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px 0;
+    border-radius: $big-radius;
+    border: none;
+    font-size: 22px;
+    color: lighten(#000, 30%);
+    input {
+      width: 50%;
+      height: 40px;
+      font-size: 16px;
+      margin-left: 15px;
+      color: lighten(#000, 30%);
+    }
+  }
+
+  &-range {
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.filters__box {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: $big-radius;
+  background-color: $light-grey;
+
+  & + .filters__box {
+    margin-top: 50px;
+  }
+}

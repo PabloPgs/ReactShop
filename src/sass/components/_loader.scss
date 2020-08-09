@@ -1,0 +1,24 @@
+.sk-rotating-plane {
+  width: 100px;
+  height: 100px;
+
+  background-color: #aaa;
+  animation: sk-rotating-plane 1.5s infinite ease-in-out;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes sk-rotating-plane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}

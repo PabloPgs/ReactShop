@@ -1,0 +1,46 @@
+.header {
+  padding: 10px 30px;
+
+  border-bottom: 2px solid #f0f0f0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+  }
+
+  &__icons {
+    display: flex;
+  }
+
+  &__icon-wrapper {
+    position: relative;
+
+    span {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+
+      color: $red;
+    }
+    & + .header__icon-wrapper {
+      margin-left: 35px;
+    }
+  }
+  &__icon {
+    font-size: 32px;
+    color: $red;
+    cursor: pointer;
+    transition: all 0.15s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &:last-of-type {
+      font-size: 34px;
+    }
+  }
+}

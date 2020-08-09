@@ -1,0 +1,129 @@
+@import './_vars';
+@import './components/_header';
+@import './components/_filters';
+@import './components/_products';
+@import './components/_categories';
+@import './components/_cart';
+@import './components/_loader';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lighten(#cbbeb5, 15%);
+  color: #423f3b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.main-wrapper {
+  max-width: 95%;
+  width: 100%;
+
+  padding: 10px;
+  margin: 50px auto;
+
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.logo {
+  svg {
+    width: 200px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  padding: 100px 0;
+}
+
+.title-small {
+  font-size: 18px;
+}
+
+.filter {
+  cursor: pointer;
+  label {
+    text-transform: capitalize;
+  }
+
+  span {
+    margin-left: 5px;
+    font-size: 18px;
+  }
+}
+
+.new-price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.old-price {
+  font-size: 15px;
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.star-yellow {
+  color: #f4ac21;
+}
+
+.star-grey {
+  color: #aaa;
+}
+
+.btn {
+  border-radius: $small-radius;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  svg {
+    font-size: 22px;
+  }
+}
+
+.btn-small {
+  padding: 5px 16px;
+}
+
+.btn-big {
+  padding: 15px 30px;
+  box-shadow: 0px 3px 8px 0px rgba($red, 0.75);
+}
+
+.btn-main {
+  background-color: $red;
+
+  &:hover {
+    background: transparent;
+    border-color: $red;
+    color: $red;
+
+    svg {
+      color: $red;
+    }
+  }
+}

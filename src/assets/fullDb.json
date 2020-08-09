@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Диван Твигги",
+    "category": "couch",
+    "img": "https://hoff.ru/upload/iblock/2da/2da1b80d89881211521829ee301fa4f9.jpg",
+    "newPrice": 27999,
+    "oldPrice": 30000,
+    "rating": 4,
+    "popularity": 150,
+    "hot": false
+  },
+  {
+    "id": 2,
+    "name": "Угловой диван Клэр",
+    "category": "couch",
+    "img": "https://hoff.ru/upload/iblock/f56/f569a97f43e0d588b567655f7745e4c7.jpg",
+    "newPrice": 49999,
+    "oldPrice": 67000,
+    "rating": 5,
+    "popularity": 87,
+    "hot": true
+  },
+  {
+    "id": 3,
+    "name": "Диван-кровать Маркус",
+    "category": "couch",
+    "img": "https://hoff.ru/upload/iblock/733/73356411dc9adca1613db81ea2be9f56.jpg",
+    "newPrice": 22999,
+    "oldPrice": 30000,
+    "rating": 4,
+    "popularity": 30,
+    "hot": false
+  },
+  {
+    "id": 4,
+    "name": "Диван-кровать Маркус",
+    "category": "couch",
+    "img": "https://hoff.ru/upload/iblock/c9f/c9f7565f9f6f38a0c7bd2e1f949a4e5a.jpg",
+    "newPrice": 27999,
+    "oldPrice": 0,
+    "rating": 5,
+    "popularity": 232,
+    "hot": false
+  },
+  {
+    "id": 5,
+    "name": "Кровать Морена",
+    "category": "bed",
+    "img": "https://hoff.ru/upload/iblock/d49/d4951ed4e4bf19a58fbcf3a8bb7008ba.jpg",
+    "newPrice": 4999,
+    "oldPrice": 10000,
+    "rating": 3,
+    "popularity": 22,
+    "hot": true
+  },
+  {
+    "id": 7,
+    "name": "Кровать Garda",
+    "category": "bed",
+    "img": "https://hoff.ru/upload/iblock/c53/c53c07cd14eb2493b399fa5a27c51675.jpg",
+    "newPrice": 15990,
+    "oldPrice": 23999,
+    "rating": 4,
+    "popularity": 300,
+    "hot": false
+  },
+  {
+    "id": 8,
+    "name": "Кровать Амели ",
+    "category": "bed",
+    "img": "https://hoff.ru/upload/iblock/967/9672772d58460bddcd78b27f1f112308.jpg",
+    "newPrice": 15999,
+    "oldPrice": 0,
+    "rating": 5,
+    "popularity": 125,
+    "hot": true
+  },
+  {
+    "id": 9,
+    "name": "Кресло Модена",
+    "category": "armchair",
+    "img": "https://hoff.ru/upload/iblock/243/2432b28710f65148d81bcdb8c4a3099d.jpg",
+    "newPrice": 12999,
+    "oldPrice": 0,
+    "rating": 4,
+    "popularity": 85,
+    "hot": false
+  },
+  {
+    "id": 11,
+    "name": "Кресло Дакота",
+    "category": "armchair",
+    "img": "https://hoff.ru/upload/iblock/338/33817c983bc464d06de0ae717a08257d.jpg",
+    "newPrice": 12999,
+    "oldPrice": 22000,
+    "rating": 5,
+    "popularity": 405,
+    "hot": true
+  },
+  {
+    "id": 12,
+    "name": "Барный стул Volt",
+    "category": "chair",
+    "img": "https://hoff.ru/upload/iblock/338/33817c983bc464d06de0ae717a08257d.jpg",
+    "newPrice": 2999,
+    "oldPrice": 0,
+    "rating": 3,
+    "popularity": 25,
+    "hot": false
+  },
+  {
+    "id": 13,
+    "name": "Кресло вращающееся Marvin",
+    "category": "chair",
+    "img": "https://hoff.ru/upload/iblock/6c1/6c1d93371e3edce2a626ba1eb3043367.jpg",
+    "newPrice": 12000,
+    "oldPrice": 0,
+    "rating": 4,
+    "popularity": 137,
+    "hot": false
+  },
+  {
+    "id": 15,
+    "name": "Шкаф-пенал для белья Vendela правый",
+    "category": "cupboard",
+    "img": "https://hoff.ru/upload/iblock/db6/db6c08b2abd865ba31ae2a94e905941d.jpg",
+    "newPrice": 5599,
+    "oldPrice": 699,
+    "rating": 4,
+    "popularity": 185,
+    "hot": true
+  },
+  {
+    "id": 16,
+    "name": "Шкаф-купе Cors",
+    "category": "cupboard",
+    "img": "https://hoff.ru/upload/iblock/a5b/a5ba19ee804651b4168af5ba84a03861.jpg",
+    "newPrice": 14697,
+    "oldPrice": 18597,
+    "rating": 5,
+    "popularity": 195,
+    "hot": false
+  },
+  {
+    "id": 18,
+    "name": "Шкаф 3-дверный Лофт",
+    "category": "cupboard",
+    "img": "https://hoff.ru/upload/iblock/a85/a853ab0bb60704c9e8226f0a12febc50.jpg",
+    "newPrice": 8399,
+    "oldPrice": 0,
+    "rating": 5,
+    "popularity": 345,
+    "hot": false
+  },
+  {
+    "id": 19,
+    "name": "Диван-кровать Римини",
+    "category": "couch",
+    "img": "https://hoff.ru/upload/iblock/161/161a33f8958abc90588f12fb36118a06.jpg",
+    "newPrice": 28999,
+    "oldPrice": 0,
+    "rating": 5,
+    "popularity": 223,
+    "hot": false
+  }
+]
